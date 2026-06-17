@@ -1,20 +1,29 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: Suggest an improvement for infinix-mecha-bar
 title: ''
-labels: ''
+labels: enhancement
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Is your request related to a problem?**
+A clear description of the problem or limitation. Ex. "I can't automate X because..."
 
 **Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+What you want added or changed — CLI flag, mode, config behavior, packaging, docs, etc.
+
+**Use case**
+How you would use it in practice (keybind, idle hook, lid event, script, etc.).
 
 **Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+Other ways to solve it, or workarounds you've tried.
+
+**Hardware / protocol context** (if relevant)
+
+- Laptop model: [e.g. Infinix GT Book]
+- Related mode or UART behavior: [e.g. breath delay, game mode, port discovery]
+- Does Infinix Control Center on Windows support something similar? [yes / no / unsure]
 
 **Additional context**
-Add any other context or screenshots about the feature request here.
+Screenshots, packet captures, or links that support the request.

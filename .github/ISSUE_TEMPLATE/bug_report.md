@@ -1,38 +1,57 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Report a problem with infinix-mecha-bar
 title: ''
-labels: ''
+labels: bug
 assignees: ''
 
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+A clear description of what went wrong.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**To reproduce**
+Steps and exact command(s):
+
+```bash
+# example
+infinix-mecha-bar breath 32 200 90 100
+```
+
+1.
+2.
+3.
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
+What you expected the Mecha bar (or CLI) to do.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Actual behavior**
+What happened instead — include full terminal output if there was an error.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+```
+paste output here
+```
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Environment**
+
+- Laptop model: [e.g. Infinix GT Book]
+- OS / distro: [e.g. CachyOS, Arch]
+- Install method: [pipx / AUR / manual]
+- `infinix-mecha-bar` version: [e.g. 0.1.0]
+- Custom Mode enabled in firmware: [yes / no / unsure]
+
+**Diagnostics**
+
+Please run these and paste the output:
+
+```bash
+cat /proc/tty/driver/serial
+ls -l /dev/ttyS4
+groups
+infinix-mecha-bar --help
+```
+
+If the issue is mode-specific, include the command you ran and whether the bar changed at all.
 
 **Additional context**
-Add any other context about the problem here.
+Anything else that might help — lid-close hooks, Hyprland config, non-default port (`-p`), etc.
