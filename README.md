@@ -76,7 +76,7 @@ sudo usermod -aG uucp $USER
 
 ```udev
 # Infinix GT Book Mecha bar (onboard UART)
-KERNEL=="ttyS4", MODE="0660", GROUP="uucp"
+KERNEL=="ttyS4", MODE="0666", GROUP="uucp"
 ```
 
 3. Reload rules:
