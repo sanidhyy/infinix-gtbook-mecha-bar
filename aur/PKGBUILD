@@ -17,7 +17,7 @@ makedepends=(
 options=('!strip')
 install=infinix-mecha-bar.install
 source=("$_github_repo-$pkgver.tar.gz::https://github.com/sanidhyy/$_github_repo/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=()
+sha256sums=('a9f77d5f385cbbcb2da839c969993162ef69d9dbe837eba03aca476a22abc628')
 
 build() {
   cd "$_github_repo-$pkgver"
