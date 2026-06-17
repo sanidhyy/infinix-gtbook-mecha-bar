@@ -1,4 +1,4 @@
-# :rainbow: Infinix GT Book Mecha Bar — Linux Driver
+# :rainbow: Infinix GT Book Mecha Bar Linux Driver
 
 Unofficial Linux CLI for the **rear Mecha bar** RGB controller on the Infinix GT Book.
 
