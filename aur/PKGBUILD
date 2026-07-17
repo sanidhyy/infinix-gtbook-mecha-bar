@@ -1,7 +1,7 @@
 # Maintainer: Sanidhya Kumar Verma <sanidhya.verma12345@gmail.com>
 pkgname=infinix-mecha-bar
 _github_repo='infinix-gtbook-mecha-bar'
-pkgver=0.1.0
+pkgver=0.1.1
 pkgrel=1
 pkgdesc='Unofficial Linux CLI for Infinix GT Book rear Mecha bar (UART)'
 arch=('any')
