@@ -60,6 +60,14 @@ yay -S infinix-mecha-bar
 # or: paru -S infinix-mecha-bar
 ```
 
+### :raising_hand: Need Help?
+
+If you run into issues during installation or setup:
+
+- **GitHub Discussions** — [Open a Q&A discussion](https://github.com/sanidhyy/infinix-gtbook-mecha-bar/discussions/new?category=q-a) for setup and troubleshooting help.
+- **Email** — [sanidhyyy@gmail.com](mailto:sanidhyyy@gmail.com)
+- **Discord** — `@sanidhyy`
+
 ## :closed_lock_with_key: Serial port permissions
 
 > **AUR install:** the udev rule is installed and reloaded automatically.
